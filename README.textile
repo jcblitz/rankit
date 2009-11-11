@@ -1,0 +1,13 @@
+h1. Rankit
+
+h2. What is this?
+
+This is a project to create an open source ranking system for basically anything that can be uniquely identified whether it's a blog post, a product on an e-commerce site, or a tweet. 
+
+h2. So is it a web app?
+
+It's going to be a RESTful service to provide the mechanism to rank and to query information about the rankings. 
+
+h2. Technologies
+
+I've decided to use Java because that's what I use at my 9-5 and want to play around with some OSGi and some other technologies. However, the persistence layer might use something from the NoSQL realm, I haven't decided yet. But to start it will use a simple sqlite3 db for the default dao implementations.
