@@ -16,6 +16,16 @@ public class Rank {
     private float score;
     private long itemId;
     private Date addedAt;
+    private Item item;
+
+    public Item getItem() {
+        return item;
+    }
+
+    public void setItem(Item item) {
+        this.item = item;
+    }
+
 
     public long getId() {
         return id;

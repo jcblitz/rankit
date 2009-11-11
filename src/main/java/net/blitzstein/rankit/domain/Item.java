@@ -4,6 +4,8 @@
  */
 package net.blitzstein.rankit.domain;
 
+import java.util.Collection;
+
 /**
  *
  * @author jcblitz
@@ -11,6 +13,15 @@ package net.blitzstein.rankit.domain;
 public class Item {
 
     private long id;
+    private Collection<Rank> rankings;
+
+    public Collection<Rank> getRankings() {
+        return rankings;
+    }
+
+    public void setRankings(Collection<Rank> rankings) {
+        this.rankings = rankings;
+    }
 
     public long getId() {
         return id;
